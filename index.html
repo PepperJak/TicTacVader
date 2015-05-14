@@ -9,28 +9,25 @@
 
 	var clickCount = 0;
 
-		$(document).ready(function() {
+	$(document).ready(function() {
 
-			$('.grid').click(function() {
-				clickCount += 1;
-				//console.log(clickCount);
+		$('.grid').click(function() {
+			
+			clickCount += 1;
+			//console.log(clickCount);
 
 			if (clickCount % 2 == 0) {
 
-				$('.grid').on('click', function() {
-					$(this).html('<img src="atomic.png">');
-				});
+				$(this).html('<img src="Penguin_Luke.png">');
 			}
 
 			else {
 
-				$('.grid').on('click', function() {
-					$(this).html('<img src="Darth_Vader.png">');
-				});
+				$(this).html('<img src="Penguin_Vader.png">');
 			}
 
-			});
 		});
+	});
 
 	</script>
 </head>
@@ -49,7 +46,7 @@
 	  		<div class="grid" id="grid_3"></div>
 		</div>
 		<div class="container">
-	  		<div class="grid id" id="grid_4"></div>
+	  		<div class="grid" id="grid_4"></div>
 		</div>
 		<div class="container">
 	  		<div class="grid" id="grid_5"></div>

@@ -1,13 +1,14 @@
 .game {
   *zoom: 1;
   width: auto;
-  max-width: 768px;
+  max-width: 760px;
   float: none;
   display: block;
   margin-right: auto;
   margin-left: auto;
   padding-left: 0;
   padding-right: 0;
+  background-color: black;
 }
 .game:before,
 .game:after {
