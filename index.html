@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<title>TIC-TAC-TOE</title>
+
+	<script type="text/javascript">
+
+	var clickCount = 0;
+
+		$(document).ready(function() {
+
+			$('.grid').click(function() {
+				clickCount += 1;
+				//console.log(clickCount);
+
+			if (clickCount % 2 == 0) {
+
+				$('.grid').on('click', function() {
+					$(this).html('<img src="atomic.png">');
+				});
+			}
+
+			else {
+
+				$('.grid').on('click', function() {
+					$(this).html('<img src="Darth_Vader.png">');
+				});
+			}
+
+			});
+		});
+
+	</script>
+</head>
+<body>
+
+	<div class="game">
+		
+		<div class="container">
+	  		<div class="grid" id="grid_1"></div>
+	  	</div>
+
+		<div class="container">
+	  		<div class="grid" id="grid_2"></div>
+		</div>
+		<div class="container">
+	  		<div class="grid" id="grid_3"></div>
+		</div>
+		<div class="container">
+	  		<div class="grid id" id="grid_4"></div>
+		</div>
+		<div class="container">
+	  		<div class="grid" id="grid_5"></div>
+		</div>
+		<div class="container">
+	  		<div class="grid" id="grid_6"></div>
+		</div>
+		<div class="container">
+	  		<div class="grid" id="grid_7"></div>
+		</div>
+		<div class="container">
+	  		<div class="grid" id="grid_8"></div>
+		</div>
+		<div class="container">
+	  		<div class="grid" id="grid_9"></div>
+		</div>
+	
+	</div>
+
+</body>
+</html>

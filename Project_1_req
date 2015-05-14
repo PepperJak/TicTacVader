@@ -1,0 +1,17 @@
+Project Requirements:
+
+1. It should include a game board using a grid system. (Checkers Specification)
+
+2. When a player clicks on any single square grid, an X or O should pop up where you clicked.
+
+3. Each player click will alternate between X and O.
+
+4. When a player lines up 3 X's or O's in a row, the game is over, the game resets, and Player 1 or Player 2 is displayed as the winner. 
+
+5. If the game ends in a Tie, display that the game finished in a draw. 
+
+6. Deploy a MVP BEFORE GETTING FANCY!!!
+
+7. Push a finished product to an online host. 
+
+8. HAVE FUN!!!!

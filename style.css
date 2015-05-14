@@ -1,0 +1,48 @@
+.game {
+  *zoom: 1;
+  width: auto;
+  max-width: 768px;
+  float: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+  padding-right: 0;
+}
+.game:before,
+.game:after {
+  content: '';
+  display: table;
+}
+.game:after {
+  clear: both;
+}
+.container {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 31.33333333333333%;
+  margin-left: 0%;
+  margin-right: 3%;
+}
+.container:before,
+.container:after {
+  content: '';
+  display: table;
+}
+.container:after {
+  clear: both;
+}
+.container:nth-child(3n) {
+  margin-right: 0%;
+  float: right;
+}
+.container:nth-child(3n+1) {
+  clear: both;
+}
+.grid {
+	background-image: url("http://www.iconsdb.com/icons/preview/caribbean-blue/square-xxl.png");
+	width: 250px;
+	height: 250px;
+}
