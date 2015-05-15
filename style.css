@@ -1,14 +1,19 @@
+body {
+  background-image: url("Penguin_War.png");
+  background-size: 2500px 1500px;
+}
 .game {
   *zoom: 1;
   width: auto;
-  max-width: 760px;
+  max-width: 740px;
   float: none;
   display: block;
   margin-right: auto;
   margin-left: auto;
+  margin-top: 40px;
   padding-left: 0;
   padding-right: 0;
-  background-color: black;
+  background-color: white;
 }
 .game:before,
 .game:after {
